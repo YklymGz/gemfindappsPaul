@@ -1,0 +1,19 @@
+.navWrapper {
+  display: flex;
+  gap: 10px;
+  background: #000;
+  padding: 0 12px;
+}
+
+.navItem {
+  color: #fff;
+  display: flex;
+  padding: 12px;
+  font-size: 18px;
+  align-items: center;
+  gap: 15px;
+}
+
+.navItem:hover {
+  background: #b7dde8;
+}

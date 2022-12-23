@@ -1,0 +1,51 @@
+.shapesWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shapes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.filterBtn {
+  display: flex;
+  outline: none;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.filterBtn img {
+  height: 24px;
+  display: flex;
+}
+
+.filterBtn p {
+  text-transform: uppercase;
+}
+
+.imgDiamondWrapper {
+  border: 1px solid #9f9f9f;
+  padding: 5px 0px;
+  min-height: 42px;
+  background: #f7f7f7;
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shapeName {
+  font-size: 12px;
+}
+
+.shapesTitle {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-family: serif;
+}

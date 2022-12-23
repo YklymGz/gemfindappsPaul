@@ -1,0 +1,13 @@
+.bannerWrapper {
+  background: #3fb1df;
+  padding: 5px 0;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerWrapper p {
+  color: #fff;
+  font-size: 14px;
+}

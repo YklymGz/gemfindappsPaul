@@ -1,0 +1,60 @@
+.header {
+  border-top: 0.1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.1);
+  padding: 5px 0;
+  margin: 35px 0 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.logoImg {
+  height: 60px;
+}
+
+.diamondsWrapper {
+  margin-top: 35px;
+}
+
+.diamondsContent {
+  background: #fafafa;
+  border: 1px solid #e8e8e1;
+}
+
+.diamondsTitles {
+  display: flex;
+  align-items: center;
+  background: #000;
+}
+
+.diamondsTitles > div {
+  width: 140px;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: serif;
+}
+
+.diamondsTitles > div::first-letter {
+  text-transform: uppercase;
+}
+
+.diamondLine {
+  display: flex;
+  align-items: center;
+}
+
+.diamondLine:hover {
+  background: #b7dde8;
+}
+
+.diamondCell {
+  width: 140px;
+  padding: 12px;
+  border-right: 1px solid #e8e8e1;
+}
+
+.diamondLine:hover .diamondCell {
+  color: #fff;
+}

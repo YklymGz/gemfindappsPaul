@@ -1,0 +1,29 @@
+.filtersWrapper {
+  padding: 18px 18px 20px;
+  background: #fafafa;
+}
+
+.range {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0 20px;
+  gap: 10px;
+}
+
+.range p {
+  font-family: serif;
+  display: block;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.range span::first-letter {
+  text-transform: uppercase;
+}
+
+.range input {
+  width: 100%;
+}
