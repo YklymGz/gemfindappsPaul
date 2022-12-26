@@ -1,6 +1,6 @@
 export const loadNavigation = async () => {
   const resp = await fetch(
-    "http://api.jewelcloud.com/api/RingBuilder/GetNavigation?DealerId=1089",
+    "https://api.jewelcloud.com/api/RingBuilder/GetNavigation?DealerId=1089",
     {
       method: "GET",
     }
